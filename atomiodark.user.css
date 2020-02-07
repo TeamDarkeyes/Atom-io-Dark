@@ -1,0 +1,183 @@
+/* ==UserStyle==
+@name        Atom.io Dark
+@namespace   BillyIsMe
+@version     1.0.0
+@homepageURL https://github.com/TheBillyIsMe/Atom-io-Dark
+@updateURL   https://github.com/TheBillyIsMe/Atom-io-Dark/blob/master/atomiodark.user.css
+@license     MIT
+@author      BillyIsMe
+==/UserStyle== */
+@-moz-document domain("atom.io") {
+	.footer {
+		background-color: #584B4F !important;
+	}
+
+	.footer a,
+	.footer span,
+	.top-bar {
+		color: #F2F3F4 !important;
+	}
+
+	body {
+		background-color: #2C2A2B !important;
+		color: #EFEAE1 !important;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.stats-footnote {
+		color: #EFEAE1 !important;
+	}
+
+	.css-truncate {
+		background-color: #2C2A2B !important;
+	}
+
+	.package-card .keywords li,
+	.project-card .keywords li {
+		background-color: transparent !important;
+		border: 1px solid #1A191A !important;
+	}
+
+	.card {
+		border: 1px solid #1A191A !important;
+	}
+
+	.package-card .keywords li a,
+	.project-card .keywords li a {
+		color: #8C8984 !important;
+	}
+
+	.card .meta {
+		background-color: #343233 !important;
+	}
+
+	input[type="text"],
+	#adv_code_search .search-page-label,
+	input[type="password"],
+	input[type="email"],
+	input[type="number"],
+	input[type="tel"],
+	input[type="url"],
+	input[type="search"],
+	textarea {
+		color: #EFEAE1 !important;
+		background-color: #2C2A2B !important;
+		border: 1px solid #1A191A !important;
+		box-shadow: none !important;
+	}
+
+	.minibutton {
+		text-shadow: none;
+		background: transparent !important;
+		color: #EFEAE1 !important;
+		border: 1px solid #1A191A !important;
+	}
+
+	.card .meta .author {
+		color: #EFEAE1 !important;
+	}
+
+	.select-menu-modal {
+		color: #EFEAE1 !important;
+		background-color: #2C2A2B !important;
+		border: 1px solid #1A191A !important;
+		box-shadow: none !important;
+	}
+
+	.select-menu-header {
+		color: #EFEAE1 !important;
+		background: #343233 !important;
+		border: none !important;
+		text-shadow: none !important;
+	}
+
+	.select-menu-title {
+		color: #EFEAE1 !important;
+		text-shadow: none !important;
+	}
+
+	.select-menu-item {
+		border: none !important;
+		border-top: 1px solid #1A191A !important;
+	}
+
+	.select-menu-item-icon {
+		color: #EFEAE1 !important;
+	}
+
+	.select-menu-item-text {
+		color: #EFEAE1 !important;
+	}
+
+	.search-button {
+		color: #3B9B6D !important;
+		background: transparent !important;
+		text-shadow: none !important;
+		border: 1px solid #1A191A !important;
+	}
+
+	.feedback {
+		color: #EFEAE1 !important;
+		background-color: #2C2A2B !important;
+		border: 1px solid #1A191A !important;
+	}
+
+	.topic-list-main-link a.title,
+	.topic-list .main-link a.title,
+	.latest-topic-list-item .main-link a.title,
+	.badge-wrapper .badge-category .category-name,
+	.topic-list .topic-excerpt {
+		color: #EFEAE1 !important;
+	}
+
+	.d-header {
+		color: #EFEAE1 !important;
+		background-color: #2C2A2B !important;
+	}
+
+	#topic-title h1 a {
+		color: #EFEAE1 !important;
+	}
+
+	.package-meta ul {
+		border: none !important;
+	}
+
+	.package-meta ul li {
+		border: 1px solid #1A191A !important;
+	}
+
+	.package-meta ul li a {
+		color: #EFEAE1 !important;
+	}
+
+	.markdown-body code {
+		border: none !important;
+		background-color: #1D1F21 !important;
+	}
+
+	.topic-map {
+		background-color: #2C2A2B !important;
+		color: #EFEAE1 !important;
+		border: 1px solid #1A191A !important;
+	}
+
+	.topic-map section {
+		border-top: none !important;
+	}
+
+	.topic-map .buttons .btn {
+		background-color: #2C2A2B !important;
+		color: #EFEAE1 !important;
+		border: none !important;
+	}
+
+	.nav-pills > li > a {
+		color: #EFEAE1 !important;
+	}
+}
