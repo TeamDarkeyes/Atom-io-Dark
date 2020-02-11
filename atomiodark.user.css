@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Atom.io Dark
 @namespace    TheBillyIsMe
-@version      1.0.0
+@version      1.0.1
 @description  A dark usercss theme for the Atom.io website.
 @author       TheBillyIsMe
 @homepageURL  https://github.com/TheBillyIsMe/Atom-io-Dark
@@ -84,38 +84,6 @@
 		color: #EFEAE1 !important;
 	}
 
-	.select-menu-modal {
-		color: #EFEAE1 !important;
-		background-color: #2C2A2B !important;
-		border: 1px solid #1A191A !important;
-		box-shadow: none !important;
-	}
-
-	.select-menu-header {
-		color: #EFEAE1 !important;
-		background: #343233 !important;
-		border: none !important;
-		text-shadow: none !important;
-	}
-
-	.select-menu-title {
-		color: #EFEAE1 !important;
-		text-shadow: none !important;
-	}
-
-	.select-menu-item {
-		border: none !important;
-		border-top: 1px solid #1A191A !important;
-	}
-
-	.select-menu-item-icon {
-		color: #EFEAE1 !important;
-	}
-
-	.select-menu-item-text {
-		color: #EFEAE1 !important;
-	}
-
 	.search-button {
 		color: #3B9B6D !important;
 		background: transparent !important;
@@ -161,6 +129,7 @@
 	.markdown-body code {
 		border: none !important;
 		background-color: #1D1F21 !important;
+		padding: 0.75vh 0.5vw !important;
 	}
 
 	.topic-map {
@@ -180,6 +149,61 @@
 	}
 
 	.nav-pills > li > a {
+		color: #EFEAE1 !important;
+	}
+
+	.card-install-button-close {
+		background-color: transparent !important;
+	}
+
+	.package-card .modal-download-atom,
+	.project-card .modal-download-atom {
+		border: 1px solid #1A191A !important;
+		border-radius: 0 !important;
+		background-color: #343233 !important;
+		box-shadow: none !important;
+	}
+
+	.markdown-body table tr {
+		border-top: 1px solid #1A191A !important;
+		background-color: #343233 !important;
+	}
+
+	.markdown-body table th,
+	.markdown-body table td {
+		border: 1px solid #1A191A !important;
+	}
+
+	.select-menu-modal {
+		color: #EFEAE1 !important;
+		background-color: #2C2A2B !important;
+		border: 1px solid #1A191A !important;
+		border-radius: 0 !important;
+		box-shadow: none !important;
+	}
+
+	.select-menu-header {
+		background-color: #343233 !important;
+		background-image: none !important;
+		border-bottom: 1px solid #1A191A !important;
+	}
+
+	.select-menu-header .select-menu-title {
+		color: #EFEAE1 !important;
+		text-shadow: none !important;
+	}
+
+	.select-menu-item {
+		border-bottom: 1px solid #1A191A !important;
+	}
+
+	.select-menu-item.select-menu-action,
+	.select-menu-item.selected {
+		color: #EFEAE1 !important;
+	}
+
+	.select-menu-item.select-menu-action > .octicon,
+	.select-menu-item.selected > .octicon {
 		color: #EFEAE1 !important;
 	}
 }
