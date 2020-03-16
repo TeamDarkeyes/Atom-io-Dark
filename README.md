@@ -1,4 +1,10 @@
-# Atom.io Dark Theme
+<div align="center">
+
+[![darkeyes.xyz Dark Banner](https://raw.githubusercontent.com/TeamDarkeyes/Branding/master/Graphics/Banner/Banner-Dark.png)](https://darkeyes.xyz/)
+
+<h2 align="center">Atom.io Dark Theme</h2>
+
+</div>
 
 ## Overview
 
@@ -24,4 +30,4 @@ Install the Atom.io Dark Theme.
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE) © [TheBillyIsMe](https://github.com/TheBillyIsMe)
+This repository is licenced under the [MIT License](./LICENSE.md) &copy; 2020 darkeyes.xyz
