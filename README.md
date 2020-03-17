@@ -4,6 +4,8 @@
 
 <h2 align="center">Atom.io Dark Theme</h2>
 
+[![CodeFactor](https://www.codefactor.io/repository/github/teamdarkeyes/atom-io-dark/badge)](https://www.codefactor.io/repository/github/teamdarkeyes/atom-io-dark)
+
 </div>
 
 ## Overview
